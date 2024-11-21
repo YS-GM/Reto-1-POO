@@ -8,3 +8,4 @@
 # 4. Escribir una función que reciba una lista de números enteros y retorne la mayor suma entre dos elementos consecutivos.
   La función mayor_suma_consecutivos recorre una lista de números enteros y calcula la suma de cada par de elementos consecutivos. Compara cada suma con la mayor suma encontrada hasta el momento y actualiza el valor si es necesario. Al final, retorna la mayor suma entre dos elementos consecutivos de la lista.
 # 5. Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: `["amor", "roma", "perro"]`, salida `["amor", "roma"]`
+  La función recorre la lista de strings y para cada palabra, compara si alguna otra tiene los mismos caracteres, ordenando ambos strings antes de la comparación. Si encuentra coincidencias, agrega esas palabras a la lista de resultados. Al final, retorna las palabras que tienen los mismos caracteres.
