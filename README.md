@@ -1,5 +1,9 @@
-# Reto-1-POO
 # Reto 1. Programación Orientada a objetos
 # 1. Crear una función que realice operaciones básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada de la función será los dos operandos y el caracter usado para la operación. *entrada:* `(1,2,"+")`, *salida* `(3)`.
   Se define una función llamada operaciones_basicas en la que se puede realizar suma, resta, multiplicación o división según el operador ingresado, por medio de condicionales se verifica el operador y maneja casos como la división por cero o un operador no válido, devolviendo un mensaje correspondiente a dichos errores. Luego, solicita al usuario dos números y un operador, ejecuta la función con estos valores y muestra el resultado en pantalla.
-  
+# 2. Realice una función que permita validar si una palabra es un palíndromo. **Condición:** No se vale hacer slicing para invertir la palabra y verificar que sea igual a la original.
+  Se define una función llamada palindromo en la que convierte la palabra a minúsculas usando palabra.lower() para evitar diferencias entre mayúsculas y minúsculas, luego convierte la palabra en una lista de caracteres con list(palabra). Posteriormente, invierte la lista de caracteres usando reverse(). Compara la lista original (en formato de lista de caracteres) con la lista invertida; si son iguales, significa que la palabra es un palíndromo, y se imprime "Es un palíndromo", de lo contrario, se imprime "No es un palíndromo". Después se crea una variable para que el usuario pueda ingresar la palabra a confirmar y luego ejecuta la función.
+# 3. Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
+
+# 4. Escribir una función que reciba una lista de números enteros y retorne la mayor suma entre dos elementos consecutivos.
+# 5. Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: `["amor", "roma", "perro"]`, salida `["amor", "roma"]`
